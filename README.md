@@ -41,7 +41,7 @@ if you want to, you can save your mysql information in a `config.json` file, tha
 Here is the code to connect to the json file or json string.
 
 ```py
-import json # Json Library (dont forgot)
+import json # Json Library (dont forget it lol)
 
 f = open('config.json') # Opens The File
 data = json.load(f) # Loads The Opened File
